@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<article class="case-study">
+  <header class="case-header">
+    <div class="case-meta">
+      <span class="case-role">{{ page.role }}</span>
+      <span class="case-period">{{ page.period }}</span>
+      <span class="case-budget">{{ page.budget }}</span>
+    </div>
+    <h1 class="case-title">{{ page.title }}</h1>
+    <p class="case-summary">{{ page.summary }}</p>
+    {% if page.metrics %}
+    <div class="case-kpis">
+      {% for metric in page.metrics %}
+      <div class="kpi">
+        <span class="kpi-value">{{ metric.value }}</span>
+        <span class="kpi-label">{{ metric.label }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="case-body">
+    {% if page.challenge %}
+    <section class="case-section">
+      <h2>Desafio</h2>
+      {{ page.challenge | markdownify }}
+    </section>
+    {% endif %}
+
+    {% if page.approach %}
+    <section class="case-section">
+      <h2>Abordagem</h2>
+      {{ page.approach | markdownify }}
+    </section>
+    {% endif %}
+
+    {% if page.actions %}
+    <section class="case-section">
+      <h2>Ações Executadas</h2>
+      <ul class="actions-list">
+        {% for action in page.actions %}
+        <li>{{ action }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.results %}
+    <section class="case-section results">
+      <h2>Resultados</h2>
+      {{ page.results | markdownify }}
+    </section>
+    {% endif %}
+
+    {% if page.learnings %}
+    <section class="case-section learnings">
+      <h2>Learnings & Decisões Baseadas em Dados</h2>
+      <ul>
+        {% for learning in page.learnings %}
+        <li>{{ learning }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.stack %}
+    <section class="case-section stack">
+      <h2>Stack Utilizada</h2>
+      <div class="stack-tags">
+        {% for item in page.stack %}
+        <span class="tag">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  </div>
+
+  <footer class="case-footer">
+    <a href="{{ '/cases/' | relative_url }}" class="back-link">← Voltar aos Cases</a>
+  </footer>
+</article>

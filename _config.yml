@@ -1,0 +1,51 @@
+title: "Lucas Traba — Performance & Growth Portfolio"
+description: "Analista de Performance | Growth | Squad Leader. Google Ads, Meta Ads, Automação, CRM WhatsApp, Data-Driven Decisions."
+url: "https://lucastraba.github.io"
+baseurl: "/portfolio"
+github_username: lucastraba
+linkedin_username: lucastraba
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  cases:
+    output: true
+    permalink: /cases/:name/
+  automation:
+    output: true
+    permalink: /automation/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "cases"
+    values:
+      layout: case
+  - scope:
+      path: ""
+      type: "automation"
+    values:
+      layout: automation
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - CNAME
+  - .gitignore
+  - scripts
+
+sass:
+  style: compressed
