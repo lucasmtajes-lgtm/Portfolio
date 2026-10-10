@@ -1,4 +1,4 @@
-# Lucas Traba — Performance & Growth Portfolio
+# Lucas Tajes — Performance & Growth Portfolio
 
 [![Deploy to GitHub Pages](https://github.com/lucastraba/portfolio/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lucastraba/portfolio/actions/workflows/jekyll.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

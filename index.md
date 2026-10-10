@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="hero">
-  <h1>Lucas Traba <span class="highlight">— Performance & Growth</span></h1>
+  <h1>Lucas Tajes <span class="highlight">— Performance & Growth</span></h1>
   <p class="lead">Analista de Performance | Growth | Squad Leader. Transformo budgets em resultados mensuráveis via Google Ads, Meta Ads, automação e decisões baseadas em dados.</p>
   <div class="cta-group">
     <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver Cases →</a>
