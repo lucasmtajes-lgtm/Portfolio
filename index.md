@@ -3,98 +3,85 @@ layout: default
 ---
 <div class="hero">
   <h1>Lucas Tajes <span class="highlight">— Performance & Growth</span></h1>
-  <p class="lead">Analista de Performance | Growth | Squad Leader. Transformo budgets em resultados mensuráveis via Google Ads, Meta Ads, automação e decisões baseadas em dados.</p>
+  <p class="lead">Analista de Performance Sênior | Growth & Analytics. Mais de 10 anos transformando investimento em receita através de gestão de mídia, otimização de funil, SEO/CRO e automação orientada a dados.</p>
   <div class="cta-group">
-    <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver Cases →</a>
-    <a href="https://github.com/lucastraba" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+    <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver Cases de Negócio →</a>
     <a href="https://linkedin.com/in/lucastraba" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+    <a href="https://github.com/lucastraba" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
   </div>
 </div>
 
 <div class="kpi-grid">
   <div class="kpi-card">
-    <div class="kpi-value">R$ 1M+</div>
-    <div class="kpi-label">Budget Gerido/Ano</div>
+    <div class="kpi-value">R$ 500k+</div>
+    <div class="kpi-label">Verba Gerida / Mês</div>
   </div>
   <div class="kpi-card">
-    <div class="kpi-value">15+</div>
-    <div class="kpi-label">Contas Ativas</div>
+    <div class="kpi-value">20</div>
+    <div class="kpi-label">Contas Simultâneas</div>
   </div>
   <div class="kpi-card">
-    <div class="kpi-value">3.5x</div>
-    <div class="kpi-label">ROAS Médio Alvo</div>
+    <div class="kpi-value">+60%</div>
+    <div class="kpi-label">Tráfego (Brinox)</div>
   </div>
   <div class="kpi-card">
-    <div class="kpi-value">10+</div>
-    <div class="kpi-label">Automações em Produção</div>
+    <div class="kpi-value">5x</div>
+    <div class="kpi-label">Geração de Leads (KD)</div>
   </div>
 </div>
 
 <section class="section">
-  <h2 class="section-title">Cases Principais</h2>
+  <h2 class="section-title">Cases de Destaque</h2>
   <div class="cards-grid">
     <article class="card">
       <div class="card-meta">
-        <span>Google Ads API</span>
-        <span>MCP Server</span>
-        <span>Automação</span>
+        <span>Brinox</span>
+        <span>Otimização de Funil</span>
+        <span>Redistribuição de Verba</span>
       </div>
-      <h3>MCP Google Ads — Plataforma de Gestão & Automação</h3>
-      <p>Servidor MCP customizado para Google Ads API: relatórios GAQL, criação de campanhas (Search/PMax), keyword planner, dashboards, checagem de saldos. Base das skills `checar-saldos`, `pmax-search-terms`, `google-ads-creator`.</p>
+      <h3>Brinox — +60% de Tráfego Sem Aumento de Verba</h3>
+      <p>Diagnóstico completo do funil: realocação estratégica de verba excessiva em Meta Ads para canais de maior eficiência no Google Ads, aliado à correção de gargalos no checkout e inclusão de Pix/boleto.</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Google Ads API</span><span class="tag">MCP</span><span class="tag">Playwright</span><span class="tag">BigQuery</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">CRO</span><span class="tag">Funil E-commerce</span>
       </div>
     </article>
 
     <article class="card">
       <div class="card-meta">
-        <span>Meta Ads API</span>
-        <span>127+ Scripts</span>
-        <span>Multi-cliente</span>
+        <span>KD Minha Oficina</span>
+        <span>Geração de Demanda</span>
+        <span>Escala B2B/B2C</span>
       </div>
-      <h3>MCP Meta Ads — Criação & Otimização em Escala</h3>
-      <p>Pipeline completo: análise de performance, criação de campanhas/criativos (carrossel, vídeo, formulários, WhatsApp), gestão de públicos Advantage+, migração Formulário→WhatsApp, preview shareable links.</p>
+      <h3>KD Minha Oficina — Crescimento de 5x em Solicitações</h3>
+      <p>Estratégia agressiva de aquisição e expansão de funil, elevando o patamar de solicitações de orçamento de 500 para mais de 2.500 mensais com rigor na qualificação e eficiência de custos.</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Meta Ads API</span><span class="tag">n8n</span><span class="tag">Evolution API</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">Geração de Leads</span><span class="tag">Escala</span>
       </div>
     </article>
 
     <article class="card">
       <div class="card-meta">
-        <span>Growth Automation</span>
-        <span>Lead Gen</span>
-        <span>13% Conversão</span>
+        <span>Motorleads</span>
+        <span>Automotive LatAm</span>
+        <span>Full-Funnel Ads</span>
       </div>
-      <h3>Leads Sem Site — Geração Automatizada de Demanda</h3>
-      <p>Sistema end-to-end: busca OSM → enriquecimento Google Maps/Redes Sociais → geração de sites demo via IA (Stable Diffusion) → pitch via WhatsApp. 87 leads → 11 qualificados (13% funil).</p>
+      <h3>Motorleads — Gestão Full-Funnel em Concessionárias</h3>
+      <p>Operação multi-conta para grupos automotivos na América Latina: campanhas Search, Performance Max, Meta Ads e TikTok Ads focadas em test drives, financiamento, propostas e vendas presenciais.</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Stable Diffusion</span><span class="tag">Firecrawl</span><span class="tag">OpenStreetMap</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag primary">TikTok Ads</span><span class="tag">Automotivo</span>
       </div>
     </article>
 
     <article class="card">
       <div class="card-meta">
-        <span>Squad Leader</span>
-        <span>CRM + CAPI</span>
-        <span>n8n Orchestration</span>
+        <span>MozBR & Babytub</span>
+        <span>E-commerce & ROAS</span>
+        <span>Catálogos & Retorno</span>
       </div>
-      <h3>CRM WhatsApp — Orquestração, Atribuição & Meta CAPI</h3>
-      <p>CRM via WhatsApp (Evolution API + n8n + Supabase): atribuição via metadados Meta (click-to-WhatsApp), lead scoring (Comprador/Quente), dashboard de vendas/produto, integração Conversions API (Lead Quente + Purchase) para otimização CTWA.</p>
+      <h3>E-commerce & Mídia — Otimização de Retorno e Catálogo</h3>
+      <p>Gestão de catálogos (Merchant Center), integração GA4/GTM, e estruturação de campanhas que entregaram retornos expressivos sobre o investimento em mídia (ROAS/ROI otimizado).</p>
       <div class="card-tags">
-        <span class="tag primary">n8n</span><span class="tag">Supabase</span><span class="tag">Docker</span><span class="tag">Meta CAPI</span><span class="tag">Evolution API</span>
-      </div>
-    </article>
-
-    <article class="card">
-      <div class="card-meta">
-        <span>Trading Bot</span>
-        <span>Probabilidade & Edge</span>
-        <span>Autonomia Total</span>
-      </div>
-      <h3>Lab de Probabilidade M1 / Estratégias Pocket Option</h3>
-      <p>Framework de validação estatística (Wilson 95% > break-even 53.5%): 9 estratégias testadas, coleta de dados reais, backtest offline, automação diária de análise (Task Scheduler + PowerShell), iteração autônoma (V1→V2→FLUXO→JACARÉ).</p>
-      <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Pandas</span><span class="tag">Estatística</span><span class="tag">PyInstaller</span>
+        <span class="tag primary">Google Shopping</span><span class="tag primary">GA4 / GTM</span><span class="tag">Merchant Center</span><span class="tag">ROAS</span>
       </div>
     </article>
   </div>
@@ -104,53 +91,57 @@ layout: default
   <h2 class="section-title">O Que Eu Entrego</h2>
   <div class="cards-grid">
     <div class="card">
-      <h3>Performance Ads</h3>
-      <p>Gestão full-funnel Google/Meta: estrutura de campanhas, bid strategies, PMax, Shopping, CTWA, Creative Testing, Audience Signals, ROAS/CAC targets.</p>
+      <h3>Performance Sênior & Mídia Paga</h3>
+      <p>Gestão full-funnel em Google Ads, Meta Ads e TikTok Ads. Domínio de Search, Performance Max, Shopping, CTWA, estruturação de campanhas, escala de verba e foco implacável em ROAS/CPL.</p>
     </div>
     <div class="card">
-      <h3>Growth & Experimentação</h3>
-      <p>Frameworks de testes A/B, growth loops, enriquecimento de leads, funis de aquisição, CRO, atribuição multi-touch, CAPI/Server-side tracking.</p>
+      <h3>Estratégia de Funil & CRO</h3>
+      <p>Análise profunda do comportamento do usuário do clique à conversão. Diagnóstico de gargalos no checkout, testes A/B, melhoria de taxa de conversão (CVR) e distribuição inteligente de investimentos.</p>
     </div>
     <div class="card">
-      <h3>Liderança Técnica</h3>
-      <p>Squad de 3-5 pessoas: OKRs, rituals (planning, review, retro), code review, mentoria, hiring, docs, handoffs, stakeholder management.</p>
+      <h3>Analytics & Atribuição</h3>
+      <p>Implementação de GA4, Google Tag Manager, Looker Studio e rastreamento avançado. Decisões baseadas em dados confiáveis, atribuição multi-touch e visão clara do retorno financeiro.</p>
     </div>
     <div class="card">
-      <h3>Engenharia de Dados & Automação</h3>
-      <p>Pipelines Python (APIs, ETL), dashboards (BigQuery, Metabase, custom), n8n workflows, MCP servers, bots, deploy Docker/CI-CD.</p>
+      <h3>Automação & Eficiência (Diferencial)</h3>
+      <p>Uso de tecnologia própria (Python, n8n, APIs de mídia) nos bastidores para eliminar tarefas manuais, monitorar saldos, gerar alertas e otimizar a operação de múltiplas contas com velocidade.</p>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <h2 class="section-title">Stack Principal</h2>
+  <h2 class="section-title">Stack Principal & Habilidades</h2>
   <div class="cards-grid">
     <div class="card">
-      <h3>Ads & Analytics</h3>
+      <h3>Mídia & Ads</h3>
       <div class="card-tags">
-        <span class="tag primary">Google Ads API</span><span class="tag primary">Meta Ads API</span>
-        <span class="tag">GA4 / GTM</span><span class="tag">BigQuery</span><span class="tag">Mixpanel</span><span class="tag">Looker Studio</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span>
+        <span class="tag primary">TikTok Ads</span><span class="tag">LinkedIn Ads</span>
+        <span class="tag">Performance Max</span><span class="tag">Shopping</span>
       </div>
     </div>
     <div class="card">
-      <h3>Backend & Data</h3>
+      <h3>Analytics & Tracking</h3>
       <div class="card-tags">
-        <span class="tag primary">Python 3.11+</span><span class="tag">SQL / PostgreSQL</span>
-        <span class="tag">Supabase</span><span class="tag">Pandas</span><span class="tag">FastAPI</span><span class="tag">Docker</span>
+        <span class="tag primary">GA4</span><span class="tag primary">Google Tag Manager</span>
+        <span class="tag">Looker Studio</span><span class="tag">Google Search Console</span>
+        <span class="tag">Merchant Center</span><span class="tag">Pixels & CAPI</span>
       </div>
     </div>
     <div class="card">
-      <h3>Automação & Orquestração</h3>
+      <h3>Growth & Negócio</h3>
       <div class="card-tags">
-        <span class="tag primary">n8n</span><span class="tag">MCP (Model Context Protocol)</span>
-        <span class="tag">Playwright</span><span class="tag">Evolution API</span><span class="tag">Firecrawl</span>
+        <span class="tag primary">SEO Técnico</span><span class="tag primary">CRO & Funis</span>
+        <span class="tag">Testes A/B</span><span class="tag">Gestão de Budget</span>
+        <span class="tag">Atribuição</span><span class="tag">Liderança de Squad</span>
       </div>
     </div>
     <div class="card">
-      <h3>Growth Tools</h3>
+      <h3>Automação (Diferencial)</h3>
       <div class="card-tags">
-        <span class="tag">Stable Diffusion XL</span><span class="tag">OpenStreetMap</span>
-        <span class="tag">Google Places API</span><span class="tag">Replicate</span><span class="tag">Apify</span>
+        <span class="tag primary">Python</span><span class="tag primary">n8n</span>
+        <span class="tag">APIs de Mídia</span><span class="tag">Supabase</span>
+        <span class="tag">Docker</span><span class="tag">IA Aplicada</span>
       </div>
     </div>
   </div>

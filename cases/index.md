@@ -1,25 +1,25 @@
 ---
 layout: default
-title: "Cases"
-description: "Cases detalhados de Performance, Growth e Liderança — métricas reais, abordagem e learnings."
+title: "Cases de Negócio & Performance"
+description: "Cases reais de performance, growth e otimização de funil — métricas de negócio, ROI, escala e eficiência."
 ---
 <div class="hero" style="padding: var(--spacing-lg) 0;">
-  <h1>Cases</h1>
-  <p class="lead">Projetos reais com métricas reais. Cada case segue: Desafio → Hipótese → Ações → Resultados → Learnings.</p>
+<h1>Cases de Negócio & Performance</h1>
+<p class="lead">Projetos reais de aquisição e crescimento. Cada case detalha o desafio de negócio, diagnóstico de funil, estratégia aplicada e resultados alcançados.</p>
 </div>
 
 <ul class="cases-list">
   <li>
     <article class="card">
       <div class="card-meta">
-        <span>Performance Analyst</span>
-        <span>2024–Atual</span>
-        <span>R$ 3M+/ano</span>
+        <span>Avanti</span>
+        <span>2022–2024</span>
+        <span>+60% Tráfego</span>
       </div>
-      <h3><a href="{{ '/cases/mcp-google-ads/' | relative_url }}" style="color: inherit; text-decoration: none;">MCP Google Ads — Plataforma de Gestão & Automação</a></h3>
-      <p>Servidor MCP customizado para Google Ads API: relatórios GAQL, criação de campanhas Search/PMax, Keyword Planner, dashboards, checagem de saldos automatizada. Base das skills `checar-saldos`, `pmax-search-terms`, `google-ads-creator`. 15+ contas ativas (Kaizen, Babytub, Flora, Pneulândia, Brenner, JAC, Kia, Vivipra, Espantalho, ANP VW, Audi, etc.).</p>
+      <h3>Brinox — Aumento de 60% no Tráfego sem Aumento de Verba</h3>
+      <p>Diagnóstico completo de funil e canais: realocação estratégica de investimentos excessivos em Meta Ads para canais de maior eficiência no Google Ads, aliado à correção de gargalos no checkout (Pix e boleto).</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Google Ads API</span><span class="tag">MCP</span><span class="tag">GAQL</span><span class="tag">BigQuery</span><span class="tag">Playwright</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">CRO</span><span class="tag">Funil de E-commerce</span>
       </div>
     </article>
   </li>
@@ -27,14 +27,14 @@ description: "Cases detalhados de Performance, Growth e Liderança — métricas
   <li>
     <article class="card">
       <div class="card-meta">
-        <span>Performance Analyst</span>
-        <span>2024–Atual</span>
-        <span>10+ Contas</span>
+        <span>Avanti</span>
+        <span>2022–2024</span>
+        <span>5x Leads</span>
       </div>
-      <h3><a href="{{ '/cases/mcp-meta-ads/' | relative_url }}" style="color: inherit; text-decoration: none;">MCP Meta Ads — Criação & Otimização em Escala</a></h3>
-      <p>Pipeline completo: análise de performance, criação de campanhas/criativos (carrossel, vídeo, formulários, WhatsApp), gestão de públicos Advantage+, migração Formulário→WhatsApp, preview shareable links. 127+ scripts, clientes: ANP VW, Bi Mel, Audi Center, Flora Motors, IAAutos, Sergio Pneus, Nippokar, Tonicenter, Yamaha.</p>
+      <h3>KD Minha Oficina — Crescimento de 5x em Solicitações de Orçamento</h3>
+      <p>Expansão expressiva de demanda B2B/B2C: salto de 500 para mais de 2.500 solicitações de orçamento mensais através de reestruturação de campanhas, segmentação avançada e otimização de custo por lead.</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Meta Ads API</span><span class="tag">n8n</span><span class="tag">Evolution API</span><span class="tag">WhatsApp CTWA</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">Geração de Leads</span><span class="tag">Escala</span>
       </div>
     </article>
   </li>
@@ -42,14 +42,14 @@ description: "Cases detalhados de Performance, Growth e Liderança — métricas
   <li>
     <article class="card">
       <div class="card-meta">
-        <span>Growth & Automação</span>
-        <span>2026</span>
-        <span>13% Funil</span>
+        <span>Motorleads</span>
+        <span>2025–Atual</span>
+        <span>Multicanal LatAm</span>
       </div>
-      <h3><a href="{{ '/cases/leads-sem-site/' | relative_url }}" style="color: inherit; text-decoration: none;">Leads Sem Site — Geração Automatizada de Demanda</a></h3>
-      <p>Sistema end-to-end: busca OSM (empresas sem site) → enriquecimento Google Maps/Redes Sociais → geração de sites demo via IA (Stable Diffusion XL) → pitch via WhatsApp. Teste real: 87 leads brutos → 63 sem site → 11 qualificados com contato (13% conversão funil). 3 sites demo publicados (Salão Navalha de Ouro, Planet Hair, Murilo Piassi Mega Hair).</p>
+      <h3>Motorleads — Gestão Full-Funnel no Setor Automotivo</h3>
+      <p>Operação multi-conta para concessionárias e grupos automotivos na América Latina. Campanhas Search, Performance Max, Meta Ads e TikTok Ads focadas em test drives, financiamento e vendas presenciais.</p>
       <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Stable Diffusion XL</span><span class="tag">Firecrawl</span><span class="tag">OpenStreetMap</span><span class="tag">Google Places API</span>
+        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag primary">TikTok Ads</span><span class="tag">Setor Automotivo</span>
       </div>
     </article>
   </li>
@@ -57,29 +57,14 @@ description: "Cases detalhados de Performance, Growth e Liderança — métricas
   <li>
     <article class="card">
       <div class="card-meta">
-        <span>Squad Leader / Tech Lead</span>
-        <span>2024–Atual</span>
-        <span>CRM + CAPI</span>
+        <span>E-commerce & Mídia</span>
+        <span>MozBR & Babytub</span>
+        <span>ROAS & Catálogos</span>
       </div>
-      <h3><a href="{{ '/cases/crm-whatsapp/' | relative_url }}" style="color: inherit; text-decoration: none;">CRM WhatsApp — Orquestração, Atribuição & Meta CAPI</a></h3>
-      <p>CRM via WhatsApp (Evolution API + n8n + Supabase): atribuição via metadados Meta (click-to-WhatsApp), lead scoring (Comprador/Quente/Frio), dashboard de vendas/produto, integração Conversions API (Lead Quente + Purchase) para otimização CTWA. Replicável via `crm-kit-replicacao.md`.</p>
+      <h3>MozBR & Babytub — Otimização de E-commerce, Catálogos e ROAS</h3>
+      <p>Gestão de catálogos (Google Merchant Center), integração GA4/GTM, e estruturação de campanhas de performance que entregaram retornos expressivos sobre o investimento em mídia (ROAS/ROI).</p>
       <div class="card-tags">
-        <span class="tag primary">n8n</span><span class="tag">Supabase</span><span class="tag">Docker</span><span class="tag">Meta CAPI</span><span class="tag">Evolution API</span><span class="tag">TypeScript</span>
-      </div>
-    </article>
-  </li>
-
-  <li>
-    <article class="card">
-      <div class="card-meta">
-        <span>Growth / Data Science</span>
-        <span>2026</span>
-        <span>Edge Statistical</span>
-      </div>
-      <h3><a href="{{ '/cases/prob-lab-trading/' | relative_url }}" style="color: inherit; text-decoration: none;">Lab de Probabilidade M1 — Validação Estatística de Estratégias</a></h3>
-      <p>Framework rigoroso: coleta dados reais Pocket Option → critério Wilson 95% > break-even (53.5% @ payout 87%) → backtest offline → automação diária análise (Task Scheduler + PowerShell) → iteração autônoma (ARREMATE V1/V2 → FLUXO V1/V2 → JACARÉ). 300+ trades auditados, medição calibrada por `total=` (não `$` visível).</p>
-      <div class="card-tags">
-        <span class="tag primary">Python</span><span class="tag">Pandas</span><span class="tag">Estatística (Wilson CI)</span><span class="tag">PyInstaller</span><span class="tag">PowerShell</span>
+        <span class="tag primary">Google Shopping</span><span class="tag primary">GA4 / GTM</span><span class="tag">Merchant Center</span><span class="tag">ROAS</span>
       </div>
     </article>
   </li>
