@@ -1,15 +1,15 @@
 # Lucas Tajes — Performance & Growth Portfolio
 
-[![Deploy to GitHub Pages](https://github.com/lucastraba/portfolio/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lucastraba/portfolio/actions/workflows/jekyll.yml)
+[![Deploy to GitHub Pages](https://github.com/lucasmtajes-lgtm/Portfolio/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lucasmtajes-lgtm/Portfolio/actions/workflows/jekyll.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Analista de Performance | Growth | Squad Leader**  
+**Analista de Performance Sênior | Growth & Analytics**  
 Transformo budgets em resultados mensuráveis via Google Ads, Meta Ads, automação e decisões baseadas em dados.
 
-🌐 **Live:** https://lucastraba.github.io/portfolio  
+🌐 **Live:** https://lucasmtajes-lgtm.github.io/Portfolio  
 📧 **Contato:** lucas.traba@gmail.com  
-💼 **LinkedIn:** [linkedin.com/in/lucastraba](https://linkedin.com/in/lucastraba)  
-🐙 **GitHub:** [github.com/lucastraba](https://github.com/lucastraba)
+💼 **LinkedIn:** [linkedin.com/in/lucas-tajes](https://www.linkedin.com/in/lucas-tajes/)  
+🐙 **GitHub:** [github.com/lucasmtajes-lgtm](https://github.com/lucasmtajes-lgtm)
 
 ---
 
@@ -146,8 +146,8 @@ MIT License — sinta-se livre para usar como referência para seu próprio port
 
 ## 🤝 Conecte-se
 
-- **LinkedIn:** [linkedin.com/in/lucastraba](https://linkedin.com/in/lucastraba)
-- **GitHub:** [github.com/lucastraba](https://github.com/lucastraba)
+- **LinkedIn:** [linkedin.com/in/lucas-tajes](https://www.linkedin.com/in/lucas-tajes/)
+- **GitHub:** [github.com/lucasmtajes-lgtm](https://github.com/lucasmtajes-lgtm)
 - **Email:** lucas.traba@gmail.com
 
 ---

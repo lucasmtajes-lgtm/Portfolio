@@ -6,8 +6,8 @@ layout: default
   <p class="lead">Analista de Performance Sênior | Growth & Analytics. Mais de 10 anos transformando investimento em receita através de gestão de mídia, otimização de funil, SEO/CRO e automação orientada a dados.</p>
   <div class="cta-group">
     <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver Cases de Negócio →</a>
-    <a href="https://linkedin.com/in/lucastraba" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
-    <a href="https://github.com/lucastraba" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+    <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+    <a href="https://github.com/lucasmtajes-lgtm" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
   </div>
 </div>
 
