@@ -13,7 +13,7 @@ layout: default
 
 <div class="kpi-grid">
   <div class="kpi-card">
-    <div class="kpi-value">R$ 5M+</div>
+    <div class="kpi-value">R$ 1M+</div>
     <div class="kpi-label">Budget Gerido/Ano</div>
   </div>
   <div class="kpi-card">

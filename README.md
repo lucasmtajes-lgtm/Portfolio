@@ -17,7 +17,7 @@ Transformo budgets em resultados mensuráveis via Google Ads, Meta Ads, automaç
 
 | Métrica | Valor |
 |---------|-------|
-| Budget gerido/ano | R$ 5M+ |
+| Budget gerido/ano | R$ 1M+ |
 | Contas ativas | 15+ |
 | ROAS médio alvo | 3.5x |
 | Automações em produção | 10+ |
