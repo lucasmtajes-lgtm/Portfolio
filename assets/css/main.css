@@ -177,10 +177,10 @@ img { max-width: 100%; display: block; }
 .hero-grid .cta-group { margin-top: var(--space-xl); }
 
 /* ---------- Hero stats (horizontal row) ---------- */
-.hero-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--space-xl); margin-top: var(--space-2xl); }
+.hero-stats { display: flex; flex-wrap: wrap; gap: var(--space-lg) var(--space-xl); margin-top: var(--space-2xl); }
 .hero-stats .stat { border-top: none; padding-top: 0; }
-.hero-stats .stat-value { font-size: clamp(28px, 3.4vw, var(--fs-display)); }
-.hero-stats .stat-label { margin-top: var(--space-xs); }
+.hero-stats .stat-value { font-size: clamp(26px, 2.9vw, 40px); white-space: nowrap; }
+.hero-stats .stat-label { margin-top: var(--space-xs); white-space: nowrap; }
 
 /* ---------- Stats ---------- */
 .stat-row { display: grid; gap: var(--space-md); }

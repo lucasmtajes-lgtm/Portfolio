@@ -35,7 +35,7 @@ sidebar: false
       </div>
       <div class="stat">
         <div class="stat-value">5x</div>
-        <div class="stat-label">Leads · KD Minha Oficina</div>
+        <div class="stat-label">Leads · KD</div>
       </div>
     </div>
   </div>
