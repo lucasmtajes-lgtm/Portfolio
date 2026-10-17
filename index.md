@@ -1,75 +1,163 @@
 ---
 layout: default
 ---
-<div class="hero-split">
-  <div class="hero">
-    <span class="badge"><span class="dot"></span> Brasil · Remoto</span>
-    <h1>Lucas Tajes <span class="highlight">— Performance Digital</span></h1>
-    <p class="hero-role">Growth · Analytics · IA aplicada ao marketing</p>
-    <p class="lead">Especialista em Performance Digital, Growth e Analytics, com trajetória sólida em agências, SaaS, e-commerce e marketplace. Perfil híbrido que conecta mídia paga, inteligência de dados e automação com IA — traduzindo métricas em decisões estratégicas e campanhas em resultados concretos.</p>
-    <div class="cta-group">
-      <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-primary">LinkedIn</a>
-      <a href="https://github.com/lucasmtajes-lgtm" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
-      <a href="{{ '/cases/' | relative_url }}" class="btn btn-secondary">Ver Cases →</a>
-    </div>
-  </div>
-  <div class="hero-photo">
-    <img src="{{ '/assets/images/lucas-tajes.jpg' | relative_url }}" alt="Retrato profissional de Lucas Tajes" width="800" height="1067">
-  </div>
-</div>
 
-<div class="fact-strip">
-  <div class="fact">
-    <div class="fact-label">Localização</div>
-    <div class="fact-value">Brasil · Remoto</div>
-  </div>
-  <div class="fact">
-    <div class="fact-label">E-mail</div>
-    <div class="fact-value">lucas.m.tajes@gmail.com</div>
-  </div>
-  <div class="fact">
-    <div class="fact-label">Telefone</div>
-    <div class="fact-value">(41) 99717-6070</div>
-  </div>
-  <div class="fact">
-    <div class="fact-label">LinkedIn</div>
-    <div class="fact-value">/in/lucas-tajes</div>
-  </div>
-</div>
+<p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil</p>
 
-<div class="kpi-grid">
-  <div class="kpi-card">
-    <div class="kpi-value">R$ 500k+</div>
-    <div class="kpi-label">Verba Gerida / Mês</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-value">20</div>
-    <div class="kpi-label">Contas Simultâneas</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-value">+60%</div>
-    <div class="kpi-label">Tráfego (Brinox)</div>
-  </div>
-  <div class="kpi-card">
-    <div class="kpi-value">5x</div>
-    <div class="kpi-label">Geração de Leads (KD)</div>
-  </div>
+<span class="eyebrow">Performance Specialist</span>
+<h1 class="page-title">Lucas Tajes<br><em>Performance &amp; Growth</em></h1>
+<p class="page-subtitle">
+  <strong>10+ anos em mídia paga</strong> conectando performance, analytics e automação com IA.
+  Campanha omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
+  volume e qualidade de leads — do clique à conversão.
+</p>
+
+<div class="cta-group">
+  <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver cases de negócio</a>
+  <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
 </div>
 
 <section class="section">
-  <h2 class="section-title">Experiência</h2>
+  <div class="section-head">
+    <span class="eyebrow">Approach</span>
+    <h2>Como eu trabalho</h2>
+    <p>Gestão de mídia orientada a dados, com foco em ROI mensurável em cada plataforma e mercado.</p>
+  </div>
+
+  <ul class="approach">
+    <li>
+      <h3>Estratégia antes de gastar</h3>
+      <p>Nenhuma campanha começa antes da análise de mercado, do recorte de audiências e da escolha de canais. Validar rastreamento e eficiência real de cada canal vem antes de qualquer realocação de verba.</p>
+    </li>
+    <li>
+      <h3>Execução multicanal</h3>
+      <p>Campanhas em Google Ads, Meta Ads e TikTok Ads, cada plataforma com as suas melhores práticas — Search, Performance Max, Shopping, lead generation e vídeo. Nada de copiar a mesma estrutura de campanha para todo lado.</p>
+    </li>
+    <li>
+      <h3>Otimização orientada a dados</h3>
+      <p>Monitoramento contínuo de CPC, CTR, CPA, CPL e ROAS com GA4, GTM e eventos personalizados. Dashboards e relatórios executivos que traduzem dado em decisão, não em achismo.</p>
+    </li>
+    <li>
+      <h3>Automação nos bastidores</h3>
+      <p>Python, n8n, MCP e APIs de mídia para eliminar tarefa manual, monitorar saldos e rodar auditorias. A tecnologia existe para devolver tempo de estratégia, não para gerar planilha.</p>
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="eyebrow">Expertise</span>
+    <h2>Competência central</h2>
+    <p>Plataformas e capacidades que opero no dia a dia.</p>
+  </div>
+
+  <div class="expertise-grid">
+    <div class="card">
+      <h3>Google Ads &amp; Search</h3>
+      <p>Search, Shopping, Display, YouTube e Performance Max. Estratégia de palavras-chave, gestão de lances e otimização de métricas de conversão.</p>
+      <div class="card-tags">
+        <span class="tag primary">Search</span><span class="tag primary">PMax</span>
+        <span class="tag">Shopping</span><span class="tag">YouTube</span><span class="tag">MCC</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Meta Ads &amp; Geração de Leads</h3>
+      <p>Campanhas de conversão, lead generation com formulários nativos e Click-to-WhatsApp, catálogo e remarketing. audiência, criativos e escala de orçamento.</p>
+      <div class="card-tags">
+        <span class="tag primary">Meta Ads</span><span class="tag primary">Leads</span>
+        <span class="tag">Catálogo</span><span class="tag">Advantage+</span><span class="tag">TikTok Ads</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Analytics &amp; Tracking</h3>
+      <p>GA4, Google Tag Manager, Meta CAPI e Looker Studio. Atribuição de conversão, relatórios cross-channel e insights acionáveis de negócio.</p>
+      <div class="card-tags">
+        <span class="tag primary">GA4</span><span class="tag primary">GTM</span>
+        <span class="tag">CAPI</span><span class="tag">Looker Studio</span><span class="tag">Merchant Center</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Funil, CRO &amp; Automação</h3>
+      <p>Diagnóstico do funil do clique à conversão, testes A/B e remoção de atrito no checkout. Python, n8n e MCP para escalar a operação sem retrabalho.</p>
+      <div class="card-tags">
+        <span class="tag primary">CRO</span><span class="tag primary">Python</span>
+        <span class="tag">n8n</span><span class="tag">MCP</span><span class="tag">Testes A/B</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="eyebrow">Results</span>
+    <h2>Resultados alcançados</h2>
+    <p>Cases reais com métrica de negócio no topo. Clique para o detalhamento completo do desafio, abordagem e resultados.</p>
+  </div>
+
+  <div class="carousel-wrap" data-carousel>
+    <div class="carousel">
+      <a class="card scope-card" href="{{ '/cases/brinox/' | relative_url }}">
+        <div class="card-meta"><span>Brinox</span><span>E-commerce</span></div>
+        <div class="scope-result">+60% tráfego</div>
+        <h3 style="margin-top: var(--space-sm);">Realocação de verba + CRO de checkout</h3>
+        <p>Verba excessiva em Meta Ads redirecionada para o Google Ads, sem aumentar o orçamento. Pix e boleto incluídos no pagamento.</p>
+        <div class="card-tags">
+          <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">CRO</span>
+        </div>
+      </a>
+
+      <a class="card scope-card" href="{{ '/cases/kd-minha-oficina/' | relative_url }}">
+        <div class="card-meta"><span>KD Minha Oficina</span><span>B2B / B2C</span></div>
+        <div class="scope-result">5x solicitações</div>
+        <h3 style="margin-top: var(--space-sm);">De 500 para mais de 2.500/mês</h3>
+        <p>Expansão de funil e aquisição agressiva, com rigor na qualificação de lead e eficiência de custo por contato.</p>
+        <div class="card-tags">
+          <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">Leads</span>
+        </div>
+      </a>
+
+      <a class="card scope-card" href="{{ '/cases/motorleads/' | relative_url }}">
+        <div class="card-meta"><span>Motorleads</span><span>Automotive LatAm</span></div>
+        <div class="scope-result">Multicanal</div>
+        <h3 style="margin-top: var(--space-sm);">Full-funnel em concessionárias</h3>
+        <p>Operação multi-conta para grupos automotivos na América Latina: Search, PMax, Meta Ads e TikTok Ads para test drives, financiamento e vendas presenciais.</p>
+        <div class="card-tags">
+          <span class="tag primary">Google Ads</span><span class="tag primary">TikTok Ads</span><span class="tag">Automotivo</span>
+        </div>
+      </a>
+
+      <a class="card scope-card" href="{{ '/cases/ecommerce-roas/' | relative_url }}">
+        <div class="card-meta"><span>E-commerce</span><span>ROAS</span></div>
+        <div class="scope-result">ROAS otimizado</div>
+        <h3 style="margin-top: var(--space-sm);">Catálogo, Merchant Center e GA4/GTM</h3>
+        <p>Gestão de catálogos, integração de rastreamento e estruturação de campanhas com retorno expressivo sobre o investimento em mídia.</p>
+        <div class="card-tags">
+          <span class="tag primary">Shopping</span><span class="tag primary">GA4 / GTM</span><span class="tag">ROAS</span>
+        </div>
+      </a>
+    </div>
+    <div class="carousel-nav">
+      <button type="button" data-dir="prev" aria-label="Anterior">←</button>
+      <button type="button" data-dir="next" aria-label="Próximo">→</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <span class="eyebrow">Career</span>
+    <h2>Experiência</h2>
+  </div>
+
   <ul class="timeline">
     <li>
-      <span class="period">Nov/2025 – Atual</span>
+      <span class="period">Nov/2025 — Atual</span>
       <h3>Senior Performance Analyst</h3>
       <span class="company">Motorleads · Remoto</span>
       <ul>
-        <li>Planejamento, execução e otimização de campanhas omnichannel para concessionárias, grupos automotivos e operações multiunidade — com foco em previsibilidade, volume e qualidade de leads.</li>
-        <li>Gestão de campanhas em Google Ads, Meta Ads e TikTok Ads.</li>
-        <li>Estruturação de funis completos de aquisição com foco em CPL, CPA e conversão.</li>
-        <li>Implementação e validação de tracking via GTM, GA4 e eventos personalizados.</li>
-        <li>Criação de dashboards, relatórios executivos e análises estratégicas de performance.</li>
-        <li>Interface com times de atendimento, comercial, tecnologia e clientes.</li>
+        <li>Campanhas omnichannel para concessionárias, grupos automotivos e operações multiunidade — foco em previsibilidade, volume e qualidade de leads.</li>
+        <li>Gestão de campanhas em Google Ads, Meta Ads e TikTok Ads, com funis completos de aquisição em CPL, CPA e conversão.</li>
+        <li>Implementação e validação de tracking via GTM e GA4, dashboards, relatórios executivos e interface com comercial, tecnologia e clientes.</li>
       </ul>
     </li>
     <li>
@@ -77,175 +165,82 @@ layout: default
       <h3>Squad Leader</h3>
       <span class="company">Pense Avanti</span>
       <ul>
-        <li>Liderança de equipes multidisciplinares com gestão simultânea de contas médias e grandes em diferentes segmentos, com investimentos superiores a R$ 500 mil/mês.</li>
-        <li>Atendimento simultâneo de até 20 contas de médio e grande porte.</li>
-        <li>Condução de análises de performance, otimizações e estratégias de aquisição.</li>
-        <li>Alinhamento estratégico, definição de prioridades e planos de mídia orientados por dados.</li>
+        <li>Liderança de equipes multidisciplinares com gestão simultânea de contas médias e grandes, com investimentos superiores a R$ 500 mil/mês.</li>
+        <li>Atendimento simultâneo de até 20 contas, conduções de análise, definição de prioridades e planos de mídia orientados por dados.</li>
         <li>Treinamento, acompanhamento operacional e desenvolvimento de equipe.</li>
       </ul>
     </li>
     <li>
-      <span class="period">Jan – Jun/2025</span>
+      <span class="period">Jan — Jun/2025</span>
       <h3>Gestor de Tráfego Pago</h3>
       <span class="company">Unobject · Remoto</span>
       <ul>
-        <li>Gestão estratégica de mídia paga com foco em performance, aquisição e geração de leads qualificados.</li>
-        <li>Campanhas de topo, meio e fundo de funil em Google Ads e Meta Ads.</li>
-        <li>Análise de CPC, CTR, CPA, CPL e ROAS com otimização contínua.</li>
-        <li>Testes A/B para criativos, segmentações e estratégias de lance.</li>
-        <li>Interface com times de design e conteúdo para criativos orientados a conversão.</li>
+        <li>Campanhas de topo, meio e fundo de funil em Google Ads e Meta Ads com foco em performance e leads qualificados.</li>
+        <li>Análise de CPC, CTR, CPA, CPL e ROAS, testes A/B de criativos e segmentações, e interface com design e conteúdo.</li>
       </ul>
     </li>
   </ul>
 </section>
 
 <section class="section">
-  <h2 class="section-title">Como eu trabalho</h2>
-  <ul class="approach">
-    <li>
-      <h3>Estratégia antes de verba</h3>
-      <p>Nenhuma otimização de investimento acontece antes de validar o rastreamento e entender a eficiência real de cada canal. Sem dado confiável, qualquer ganho é achismo.</p>
-    </li>
-    <li>
-      <h3>Execução multicanal com funil completo</h3>
-      <p>Google Ads, Meta Ads e TikTok Ads com estrutura de topo, meio e fundo de funil — cada canal com sua melhor prática, sem copiar a mesma campanha para todo lugar.</p>
-    </li>
-    <li>
-      <h3>Otimização orientada a dados</h3>
-      <p>Monitoramento contínuo de CPL, CPA, ROAS e CVR com GA4, GTM e eventos personalizados. Dashboards e relatórios executivos que transformam dado em decisão.</p>
-    </li>
-    <li>
-      <h3>Automação nos bastidores</h3>
-      <p>Python, n8n e MCP próprios para eliminar tarefa manual, monitorar saldos e rodar auditorias. A tecnologia entra para devolver tempo de estratégia, não para gerar planilha.</p>
-    </li>
-  </ul>
-</section>
-
-<section class="section">
-  <h2 class="section-title">Cases de destaque</h2>
-  <div class="cards-grid">
-    <a class="card" href="{{ '/cases/brinox/' | relative_url }}" style="text-decoration: none; display: block;">
-      <div class="card-meta">
-        <span>Brinox</span>
-        <span>Otimização de Funil</span>
-        <span>Redistribuição de Verba</span>
-      </div>
-      <h3>Brinox — +60% de Tráfego Sem Aumento de Verba</h3>
-      <p>Diagnóstico completo do funil: realocação estratégica de verba excessiva em Meta Ads para canais de maior eficiência no Google Ads, aliado à correção de gargalos no checkout e inclusão de Pix/boleto.</p>
-      <div class="card-tags">
-        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">CRO</span><span class="tag">Funil E-commerce</span>
-      </div>
-    </a>
-
-    <a class="card" href="{{ '/cases/kd-minha-oficina/' | relative_url }}" style="text-decoration: none; display: block;">
-      <div class="card-meta">
-        <span>KD Minha Oficina</span>
-        <span>Geração de Demanda</span>
-        <span>Escala B2B/B2C</span>
-      </div>
-      <h3>KD Minha Oficina — Crescimento de 5x em Solicitações</h3>
-      <p>Estratégia agressiva de aquisição e expansão de funil, elevando o patamar de solicitações de orçamento de 500 para mais de 2.500 mensais com rigor na qualificação e eficiência de custos.</p>
-      <div class="card-tags">
-        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">Geração de Leads</span><span class="tag">Escala</span>
-      </div>
-    </a>
-
-    <a class="card" href="{{ '/cases/motorleads/' | relative_url }}" style="text-decoration: none; display: block;">
-      <div class="card-meta">
-        <span>Motorleads</span>
-        <span>Automotive LatAm</span>
-        <span>Full-Funnel Ads</span>
-      </div>
-      <h3>Motorleads — Gestão Full-Funnel em Concessionárias</h3>
-      <p>Operação multi-conta para grupos automotivos na América Latina: campanhas Search, Performance Max, Meta Ads e TikTok Ads focadas em test drives, financiamento, propostas e vendas presenciais.</p>
-      <div class="card-tags">
-        <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag primary">TikTok Ads</span><span class="tag">Automotivo</span>
-      </div>
-    </a>
-
-    <a class="card" href="{{ '/cases/ecommerce-roas/' | relative_url }}" style="text-decoration: none; display: block;">
-      <div class="card-meta">
-        <span>E-commerce & Mídia</span>
-        <span>MozBR & Babytub</span>
-        <span>ROAS & Catálogos</span>
-      </div>
-      <h3>E-commerce & Mídia — Otimização de Retorno e Catálogo</h3>
-      <p>Gestão de catálogos (Merchant Center), integração GA4/GTM, e estruturação de campanhas que entregaram retornos expressivos sobre o investimento em mídia (ROAS/ROI otimizado).</p>
-      <div class="card-tags">
-        <span class="tag primary">Google Shopping</span><span class="tag primary">GA4 / GTM</span><span class="tag">Merchant Center</span><span class="tag">ROAS</span>
-      </div>
-    </a>
+  <div class="section-head">
+    <span class="eyebrow">Stack</span>
+    <h2>Plataformas &amp; ferramentas</h2>
   </div>
-</section>
 
-<section class="section">
-  <h2 class="section-title">Competências</h2>
-  <div class="cards-grid">
+  <div class="expertise-grid">
     <div class="card">
-      <h3>Performance & Growth</h3>
+      <h3>Performance &amp; Growth</h3>
       <div class="card-tags">
         <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span>
         <span class="tag primary">TikTok Ads</span><span class="tag">CRO</span>
         <span class="tag">Growth Marketing</span><span class="tag">Funis de conversão</span>
-        <span class="tag">Planejamento de mídia</span>
       </div>
     </div>
     <div class="card">
-      <h3>Analytics & Tracking</h3>
+      <h3>Analytics &amp; Tracking</h3>
       <div class="card-tags">
         <span class="tag primary">GA4</span><span class="tag primary">GTM</span>
         <span class="tag">Looker Studio</span><span class="tag">Search Console</span>
-        <span class="tag">Merchant Center</span><span class="tag">KPIs & Dashboards</span>
+        <span class="tag">Merchant Center</span><span class="tag">KPIs &amp; Dashboards</span>
       </div>
     </div>
     <div class="card">
-      <h3>IA & Automação</h3>
+      <h3>IA &amp; Automação</h3>
       <div class="card-tags">
         <span class="tag primary">Claude Code</span><span class="tag primary">n8n</span>
         <span class="tag">MCP</span><span class="tag">Python</span>
         <span class="tag">JavaScript</span><span class="tag">React</span>
-        <span class="tag">CLI</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Certificações</h3>
+      <div class="card-tags">
+        <span class="tag">Google Ads — Search, Display, Vídeo, Shopping</span>
+        <span class="tag">Google Analytics (GA4)</span>
+        <span class="tag">Growth Marketing</span>
+        <span class="tag">IA aplicada ao Marketing</span>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <h2 class="section-title">Diferenciais</h2>
-  <ul class="check-list">
-    <li>Perfil híbrido entre performance, analytics e tecnologia — conecta mídia paga, dados e estratégia de negócio.</li>
-    <li>IA e automação aplicadas ao marketing com uso de Claude Code, n8n e workflows operacionais para ganho de produtividade.</li>
-    <li>Tracking avançado e mensuração de dados com GTM, GA4 e estruturação de eventos e conversões personalizados.</li>
-    <li>Experiência em gestão de equipes e operações multicanal, com vivência em atendimento consultivo a clientes.</li>
-  </ul>
-</section>
-
-<section class="section">
-  <h2 class="section-title">Certificações & Idiomas</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <h3>Certificações</h3>
-      <ul class="check-list" style="margin-top: var(--spacing-sm);">
-        <li>Google Ads — Search, Display, Vídeo, Shopping e Medição</li>
-        <li>Google Analytics (GA4)</li>
-        <li>Growth Marketing</li>
-        <li>IA aplicada ao Marketing e automação de workflows</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Idiomas</h3>
-      <div class="card-tags" style="margin-top: var(--spacing-sm);">
-        <span class="tag primary">Português — Nativo</span>
-        <span class="tag">Inglês — Básico</span>
-        <span class="tag">Espanhol — Básico</span>
-      </div>
-    </div>
+  <div class="section-head">
+    <span class="eyebrow">Languages</span>
+    <h2>Idiomas</h2>
+  </div>
+  <div class="card-tags">
+    <span class="tag primary">Português — Nativo</span>
+    <span class="tag">Inglês — Básico</span>
+    <span class="tag">Espanhol — Básico</span>
   </div>
 </section>
 
 <section class="section">
   <div class="cta-band">
-    <h2>Quer conversar sobre performance e growth?</h2>
+    <span class="eyebrow">Get in touch</span>
+    <h2>Vamos falar sobre performance e growth?</h2>
     <p>Retratos, cases completos e relatórios detalhados disponíveis sob consulta. Resposta direta, sem enrolação.</p>
     <div class="cta-group">
       <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-primary">Falar no LinkedIn</a>
