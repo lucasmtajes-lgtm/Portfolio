@@ -1,20 +1,48 @@
 ---
 layout: default
+sidebar: false
 ---
 
-<p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil</p>
+<div class="hero-grid">
+  <div>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil</p>
 
-<span class="eyebrow">Performance Specialist</span>
-<h1 class="page-title">Lucas Tajes<br><em>Performance &amp; Growth</em></h1>
-<p class="page-subtitle">
-  <strong>10+ anos em mídia paga</strong> conectando performance, analytics e automação com IA.
-  Campanha omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
-  volume e qualidade de leads — do clique à conversão.
-</p>
+    <span class="eyebrow">Performance Specialist</span>
+    <h1 class="page-title">Lucas Tajes<br><em>Performance &amp; Growth</em></h1>
+    <p class="page-subtitle">
+      <strong>10+ anos em mídia paga</strong> conectando performance, analytics e automação com IA.
+      Campanha omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
+      volume e qualidade de leads — do clique à conversão.
+    </p>
 
-<div class="cta-group">
-  <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver cases de negócio</a>
-  <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+    <div class="cta-group">
+      <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver cases de negócio</a>
+      <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-value">R$ 500k+</div>
+        <div class="stat-label">Verba gerida / mês</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">20</div>
+        <div class="stat-label">Contas simultâneas</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">+60%</div>
+        <div class="stat-label">Tráfego · Brinox</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">5x</div>
+        <div class="stat-label">Leads · KD Minha Oficina</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-photo">
+    <img src="{{ '/assets/images/lucas-tajes.jpg' | relative_url }}" alt="Retrato profissional de Lucas Tajes" width="800" height="1067">
+  </div>
 </div>
 
 <section class="section">

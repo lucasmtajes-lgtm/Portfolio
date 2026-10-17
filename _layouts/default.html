@@ -49,37 +49,9 @@
           {{ content }}
         </div>
         <aside class="sidebar">
-          {% if page.hide_photo != true %}
-          <div class="profile-photo">
-            <img src="{{ '/assets/images/lucas-tajes.jpg' | relative_url }}" alt="Retrato profissional de Lucas Tajes" width="800" height="1067">
-          </div>
-          {% endif %}
-
-          <div class="sidebar-card">
-            <span class="eyebrow plain">Em números</span>
-            <div class="stat-row" style="margin-top: var(--space-md);">
-              <div class="stat">
-                <div class="stat-value">R$ 500k+</div>
-                <div class="stat-label">Verba gerida / mês</div>
-              </div>
-              <div class="stat">
-                <div class="stat-value">20</div>
-                <div class="stat-label">Contas simultâneas</div>
-              </div>
-              <div class="stat">
-                <div class="stat-value">+60%</div>
-                <div class="stat-label">Tráfego · Brinox</div>
-              </div>
-              <div class="stat">
-                <div class="stat-value">5x</div>
-                <div class="stat-label">Leads · KD Minha Oficina</div>
-              </div>
-            </div>
-          </div>
-
           <div class="sidebar-card">
             <span class="eyebrow plain">Contato</span>
-            <p style="font-size: var(--fs-ui); color: var(--text-muted); margin-top: var(--space-sm);">
+            <p style="font-size: var(--fs-ui); color: var(--text-muted); margin-top: var(--space-md);">
               Brasil · Remoto<br>
               lucas.m.tajes@gmail.com<br>
               (41) 99717-6070
@@ -88,6 +60,17 @@
               <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">LinkedIn</a>
               <a href="https://github.com/lucasmtajes-lgtm" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">GitHub</a>
             </div>
+          </div>
+
+          <div class="sidebar-card">
+            <span class="eyebrow plain">Navegação</span>
+            <p style="margin-top: var(--space-md); display: grid; gap: var(--space-sm);">
+              <a href="{{ '/cases/' | relative_url }}">Cases de negócio</a>
+              <a href="{{ '/growth/' | relative_url }}">Growth</a>
+              <a href="{{ '/leadership/' | relative_url }}">Liderança</a>
+              <a href="{{ '/tech-stack/' | relative_url }}">Stack</a>
+              <a href="{{ '/automation/' | relative_url }}">Automação</a>
+            </p>
           </div>
         </aside>
       </div>
