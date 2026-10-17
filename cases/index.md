@@ -21,6 +21,7 @@ description: "Cases reais de performance, growth e otimização de funil — mé
       <div class="card-tags">
         <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">CRO</span><span class="tag">Funil de E-commerce</span>
       </div>
+      <p style="margin-top: var(--spacing-md); margin-bottom: 0;"><a class="back-link" href="{{ '/cases/brinox/' | relative_url }}">Ver case completo →</a></p>
     </article>
   </li>
 
@@ -36,6 +37,7 @@ description: "Cases reais de performance, growth e otimização de funil — mé
       <div class="card-tags">
         <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag">Geração de Leads</span><span class="tag">Escala</span>
       </div>
+      <p style="margin-top: var(--spacing-md); margin-bottom: 0;"><a class="back-link" href="{{ '/cases/kd-minha-oficina/' | relative_url }}">Ver case completo →</a></p>
     </article>
   </li>
 
@@ -51,6 +53,7 @@ description: "Cases reais de performance, growth e otimização de funil — mé
       <div class="card-tags">
         <span class="tag primary">Google Ads</span><span class="tag primary">Meta Ads</span><span class="tag primary">TikTok Ads</span><span class="tag">Setor Automotivo</span>
       </div>
+      <p style="margin-top: var(--spacing-md); margin-bottom: 0;"><a class="back-link" href="{{ '/cases/motorleads/' | relative_url }}">Ver case completo →</a></p>
     </article>
   </li>
 
@@ -66,6 +69,7 @@ description: "Cases reais de performance, growth e otimização de funil — mé
       <div class="card-tags">
         <span class="tag primary">Google Shopping</span><span class="tag primary">GA4 / GTM</span><span class="tag">Merchant Center</span><span class="tag">ROAS</span>
       </div>
+      <p style="margin-top: var(--spacing-md); margin-bottom: 0;"><a class="back-link" href="{{ '/cases/ecommerce-roas/' | relative_url }}">Ver case completo →</a></p>
     </article>
   </li>
 </ul>

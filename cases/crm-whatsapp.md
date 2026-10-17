@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/crm-whatsapp/
 title: "CRM WhatsApp — Orquestração, Atribuição & Meta CAPI"
 role: "Squad Leader / Tech Lead"
 period: "2024 – Atual"

@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/ecommerce-roas/
 title: "MozBR & Babytub — Otimização de E-commerce, Catálogos e ROAS"
 description: "Gestão de e-commerce automotivo e infantil com foco em integração de catálogos (Merchant Center), GA4/GTM e maximização de retorno sobre o investimento em mídia (ROAS)."
 client: "MozBR & Babytub"

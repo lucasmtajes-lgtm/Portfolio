@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/kd-minha-oficina/
 title: "KD Minha Oficina — Crescimento de 5x em Solicitações de Orçamento"
 description: "Como a reestruturação de campanhas de performance e funil de captação elevou de 500 para mais de 2.500 leads mensais."
 client: "KD Minha Oficina"

@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/brinox/
 title: "Brinox — +60% de Tráfego Sem Aumento de Verba"
 description: "Como a realocação estratégica de verba entre canais e a correção de gargalos no checkout geraram 60% mais tráfego sem elevar o orçamento."
 client: "Brinox"

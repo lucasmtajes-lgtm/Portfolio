@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/motorleads/
 title: "Motorleads — Gestão Full-Funnel no Setor Automotivo LatAm"
 description: "Operação multicanal de performance para concessionárias e grupos automotivos na América Latina, cobrindo Google Ads, Meta Ads e TikTok Ads."
 client: "Motorleads"

@@ -3,13 +3,18 @@ layout: default
 ---
 <article class="case-study">
   <header class="case-header">
+    {% if page.role or page.period or page.budget %}
     <div class="case-meta">
-      <span class="case-role">{{ page.role }}</span>
-      <span class="case-period">{{ page.period }}</span>
-      <span class="case-budget">{{ page.budget }}</span>
+      {% if page.client %}<span class="case-client">{{ page.client }}</span>{% endif %}
+      {% if page.role %}<span class="case-role">{{ page.role }}</span>{% endif %}
+      {% if page.period %}<span class="case-period">{{ page.period }}</span>{% endif %}
+      {% if page.budget %}<span class="case-budget">{{ page.budget }}</span>{% endif %}
     </div>
+    {% endif %}
     <h1 class="case-title">{{ page.title }}</h1>
-    <p class="case-summary">{{ page.summary }}</p>
+    {% if page.summary or page.description %}
+    <p class="case-summary">{{ page.summary | default: page.description }}</p>
+    {% endif %}
     {% if page.metrics %}
     <div class="case-kpis">
       {% for metric in page.metrics %}
@@ -23,6 +28,12 @@ layout: default
   </header>
 
   <div class="case-body">
+    {% if content != "" %}
+    <section class="case-section">
+      {{ content }}
+    </section>
+    {% endif %}
+
     {% if page.challenge %}
     <section class="case-section">
       <h2>Desafio</h2>

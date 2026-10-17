@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/mcp-meta-ads/
 title: "MCP Meta Ads — Criação & Otimização em Escala"
 role: "Performance Analyst / Backend Engineer"
 period: "2024 – Atual"

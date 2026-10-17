@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/mcp-google-ads/
 title: "MCP Google Ads — Plataforma de Gestão & Automação"
 role: "Performance Analyst / Backend Engineer"
 period: "2024 – Atual"

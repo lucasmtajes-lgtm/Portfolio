@@ -46,6 +46,9 @@ exclude:
   - CNAME
   - .gitignore
   - scripts
+  - "dados e foto"
+  - .vscode
+  - .idea
 
 sass:
   style: compressed

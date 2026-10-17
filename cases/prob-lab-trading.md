@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/prob-lab-trading/
 title: "Lab de Probabilidade M1 — Validação Estatística de Estratégias"
 role: "Growth Engineer / Data Science"
 period: "2026 (R&D Autônomo)"

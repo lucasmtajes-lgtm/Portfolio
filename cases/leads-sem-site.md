@@ -1,5 +1,6 @@
 ---
 layout: case
+permalink: /cases/leads-sem-site/
 title: "Leads Sem Site — Geração Automatizada de Demanda"
 role: "Growth Engineer / Full-Stack"
 period: "2026 (Prototipagem Ativa)"

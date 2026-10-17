@@ -30,3 +30,6 @@ npm-debug.log*
 # Temp
 *.tmp
 *.temp
+
+# Dados pessoais (não versionar)
+dados e foto/
