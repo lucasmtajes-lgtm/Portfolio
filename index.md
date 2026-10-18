@@ -29,16 +29,8 @@ description: "Performance, analytics e automação com IA. Conheça a experiênc
         <div class="stat-label">Verba gerida / mês</div>
       </div>
       <div class="stat">
-        <div class="stat-value">20</div>
-        <div class="stat-label">Contas simultâneas</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">+60%</div>
-        <div class="stat-label">Tráfego · Brinox</div>
-      </div>
-      <div class="stat">
-        <div class="stat-value">5x</div>
-        <div class="stat-label">Leads · KD</div>
+        <div class="stat-value">100+</div>
+        <div class="stat-label">Clientes atendidos</div>
       </div>
     </div>
   </div>
