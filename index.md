@@ -13,7 +13,7 @@ description: "Performance, analytics e automação com IA. Conheça a experiênc
     <h1 class="page-title">Lucas Tajes</h1>
     <p class="profile-role">Performance &amp; Growth</p>
     <p class="page-subtitle">
-      <strong>10+ anos em mídia paga</strong> conectando performance, analytics e automação com IA.
+      <strong>6 anos em mídia paga</strong> conectando performance, analytics e automação com IA.
       Campanhas omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
       volume e qualidade de leads — do clique à conversão.
     </p>
@@ -26,11 +26,19 @@ description: "Performance, analytics e automação com IA. Conheça a experiênc
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">R$ 500k+</div>
-        <div class="stat-label">Verba gerida / mês</div>
+        <div class="stat-label">Investimento mensal gerenciado</div>
       </div>
       <div class="stat">
         <div class="stat-value">100+</div>
-        <div class="stat-label">Clientes atendidos</div>
+        <div class="stat-label">Clientes de múltiplos segmentos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">360°</div>
+        <div class="stat-label">Estratégia de ponta a ponta</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">AI + Data</div>
+        <div class="stat-label">Inteligência e automação</div>
       </div>
     </div>
   </div>

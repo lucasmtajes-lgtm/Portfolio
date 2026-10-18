@@ -207,10 +207,12 @@ button:disabled { cursor: default; }
 .btn-secondary { color: var(--text-primary); border-color: var(--border-strong); background: transparent; }
 .btn-secondary:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
 .btn-sm { padding: 8px 12px; min-height: 36px; font-size: 11px; }
-.hero-stats { display: flex; flex-wrap: wrap; gap: 26px 28px; margin-top: 52px; }
+.hero-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 28px; margin-top: 40px; }
+.hero-stats .stat { min-width: 0; }
 .stat-value { color: var(--accent); font-weight: 600; font-size: 38px; line-height: 1.2; letter-spacing: -.045em; }
-.hero-stats .stat-value { font-size: clamp(27px, 3.15vw, 40px); white-space: nowrap; }
+.hero-stats .stat-value { font-size: 26px; white-space: nowrap; }
 .stat-label { color: var(--text-muted); font-size: 10px; line-height: 1.6; margin-top: 14px; }
+.hero-stats .stat-label { color: var(--text-secondary); font-size: 11px; margin-top: 6px; }
 .stat-row { display: grid; gap: 20px; }
 .stat-row .stat { border-top: 1px solid var(--border); padding-top: 16px; }
 .stat-row .stat:first-child { border-top: 0; }
@@ -350,7 +352,7 @@ td { color: var(--text-secondary); }
   .wrapper { padding: 0 40px; }
   .hero-grid { gap: 36px; grid-template-columns: minmax(0, 1fr) 38%; }
   .hero-stats { gap: 24px; }
-  .hero-stats .stat-value { font-size: 29px; }
+  .hero-stats .stat-value { font-size: 26px; }
   .hero-grid .page-title { font-size: 40px; }
   .page-content > .wrapper > .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -380,7 +382,7 @@ td { color: var(--text-secondary); }
   .hero-grid .page-subtitle { font-size: 13px; }
   .hero-grid .profile-photo { margin-top: 0; width: 100%; max-width: 440px; }
   .hero-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 22px; margin-top: 36px; }
-  .hero-stats .stat-value { font-size: 32px; }
+  .hero-stats .stat-value { font-size: 24px; }
   .stat-label { margin-top: 8px; font-size: 10px; }
   .section { padding-top: 48px; margin-bottom: 48px; }
   .section-head { margin-bottom: 28px; }
@@ -416,7 +418,7 @@ td { color: var(--text-secondary); }
   .wrapper { padding: 0 18px; }
   .site-title { font-size: 18px; }
   .hero-grid .page-title { font-size: 32px; }
-  .hero-stats .stat-value { font-size: 28px; }
+  .hero-stats .stat-value { font-size: 22px; }
   .header-left .theme-toggle { width: 28px; }
 }
 @media (prefers-reduced-motion: reduce) {
