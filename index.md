@@ -2,7 +2,7 @@
 layout: default
 sidebar: false
 title: "Performance & Growth"
-description: "Performance, analytics e automação com IA. Conheça a experiência e os cases de Lucas Tajes em mídia paga, growth e geração de leads."
+description: "Performance, analytics e automação com IA. Conheça a experiência, os cases e a atuação em liderança de times de Lucas Tajes."
 ---
 
 <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil<span>/</span>Lucas Tajes</p>
@@ -193,12 +193,12 @@ description: "Performance, analytics e automação com IA. Conheça a experiênc
     </li>
     <li>
       <span class="period">2 anos</span>
-      <h3>Squad Leader</h3>
+      <h3>Squad Leader de Performance</h3>
       <span class="company">Pense Avanti</span>
       <ul>
-        <li>Liderança de equipes multidisciplinares com gestão simultânea de contas médias e grandes, com investimentos superiores a R$ 500 mil/mês.</li>
-        <li>Atendimento simultâneo de até 20 contas, conduções de análise, definição de prioridades e planos de mídia orientados por dados.</li>
-        <li>Treinamento, acompanhamento operacional e desenvolvimento de equipe.</li>
+        <li>Liderança de profissionais e projetos, integrando Performance, SEO e CRO aos objetivos de cada operação.</li>
+        <li>Organização e acompanhamento de até 20 contas simultâneas, com investimentos superiores a R$ 500 mil/mês em mídia e prioridades orientadas por dados.</li>
+        <li>Orientação técnica e desenvolvimento dos profissionais, com colaboração entre especialidades, autonomia e responsabilidade sobre as entregas.</li>
       </ul>
     </li>
     <li>
@@ -211,6 +211,9 @@ description: "Performance, analytics e automação com IA. Conheça a experiênc
       </ul>
     </li>
   </ul>
+  <div class="cta-group">
+    <a href="{{ '/leadership/' | relative_url }}" class="btn btn-secondary">Conhecer minha atuação em liderança</a>
+  </div>
 </section>
 
 <section class="section">

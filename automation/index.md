@@ -76,8 +76,11 @@ description: "Servidores MCP, rotinas automatizadas e integração de dados para
       <p style="color: var(--color-text-muted);">Ao automatizar o trabalho repetitivo (extração de planilhas, alertas de saldo, relatórios), o foco é direcionado inteiramente para análise de mercado, testes de criativos e otimização de ROAS.</p>
     </div>
     <div class="card">
-      <h3>Escala Sem Perda de Qualidade</h3>
-      <p style="color: var(--color-text-muted);">Capacidade comprovada de gerenciar carteiras complexas (como 20 contas simultâneas) mantendo rigor analítico e prevenção a falhas operacionais.</p>
+      <h3>Escala com Foco em Qualidade</h3>
+      <p>Automação como apoio à organização e ao acompanhamento de múltiplas contas. Menos tarefas manuais para concentrar o time em análise, prioridades e oportunidades de otimização.</p>
+      <div class="card-tags">
+        <a href="{{ '/leadership/' | relative_url }}" class="btn btn-secondary btn-sm">Liderança &amp; gestão de times</a>
+      </div>
     </div>
   </div>
 </section>
