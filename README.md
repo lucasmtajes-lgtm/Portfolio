@@ -1,155 +1,65 @@
-# Lucas Tajes — Performance & Growth Portfolio
+# Lucas Tajes — Performance & Growth
 
-[![Deploy to GitHub Pages](https://github.com/lucasmtajes-lgtm/Portfolio/actions/workflows/jekyll.yml/badge.svg)](https://github.com/lucasmtajes-lgtm/Portfolio/actions/workflows/jekyll.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+Portfólio pessoal em Jekyll, adaptado à referência visual indicada por Lucas: [perfil de Vitali Bakun na Onlinuum](https://onlinuum.com/team/vitali-bakun/). A marca, o retrato, as experiências e os cases pertencem ao portfólio de Lucas.
 
-**Analista de Performance Sênior | Growth & Analytics**  
-Transformo budgets em resultados mensuráveis via Google Ads, Meta Ads, automação e decisões baseadas em dados.
+Site de destino: https://lucasmtajes-lgtm.github.io/Portfolio/
 
-🌐 **Live:** https://lucasmtajes-lgtm.github.io/Portfolio  
-📧 **Contato:** lucas.traba@gmail.com  
-💼 **LinkedIn:** [linkedin.com/in/lucas-tajes](https://www.linkedin.com/in/lucas-tajes/)  
-🐙 **GitHub:** [github.com/lucasmtajes-lgtm](https://github.com/lucasmtajes-lgtm)
+## O que mudou
 
----
+O layout ganhou navegação lateral fixa com ícones, marca própria centralizada no cabeçalho, apresentação do perfil em duas colunas e uma hierarquia tipográfica mais próxima da referência. As seções usam espaçamento amplo, divisórias discretas, cartões numerados e a combinação de creme com verde-floresta.
 
-## 📊 Resumo Executivo
+O menu se torna recolhível no celular. O tema claro é o padrão, com opção de tema escuro persistente. Os controles de teclado, foco visível, navegação por Escape e preferência de movimento reduzido foram considerados. O JavaScript cuida somente de menu, tema e carrosséis; o conteúdo é gerado como HTML pelo Jekyll.
 
-| Métrica | Valor |
-|---------|-------|
-| Budget gerido/ano | R$ 1M+ |
-| Contas ativas | 15+ |
-| ROAS médio alvo | 3.5x |
-| Automações em produção | 10+ |
-| Anos experiência | 4+ |
-| Squad liderado | 3-5 pessoas |
+As páginas e os caminhos existentes foram preservados, assim como o prefixo `/Portfolio`. Não foram inventados períodos, métricas ou novas experiências.
 
----
+## Publicação
 
-## 🎯 Cases Principais
+Veja [COMO-PUBLICAR.md](COMO-PUBLICAR.md) para aplicar os arquivos no repositório existente. O pacote não altera o site publicado automaticamente.
 
-| Case | Role | Budget | Stack Principal | Link |
-|------|------|--------|-----------------|------|
-| **MCP Google Ads** | Performance Analyst / Backend | R$ 3M+/ano | Python, Google Ads API, MCP, GAQL, BigQuery | [Ver case](/cases/mcp-google-ads/) |
-| **MCP Meta Ads** | Performance Analyst / Backend | R$ 2M+/ano | Python, Meta API, n8n, Evolution API | [Ver case](/cases/mcp-meta-ads/) |
-| **Leads Sem Site** | Growth Engineer | R$ 0 (R&D) | Python, SDXL, Firecrawl, OSM, Places API | [Ver case](/cases/leads-sem-site/) |
-| **CRM WhatsApp** | Squad Leader / Tech Lead | R$ 500k+ otimizado | n8n, Supabase, Docker, Meta CAPI | [Ver case](/cases/crm-whatsapp/) |
-| **Lab Probabilidade M1** | Growth / Data Science | Próprio | Python, Pandas, Wilson CI, PyInstaller | [Ver case](/cases/prob-lab-trading/) |
+## Estrutura
 
----
-
-## 🛠 Stack Principal
-
-**Ads & Analytics:** Google Ads API, Meta Marketing API, GA4/GTM Server-side, BigQuery, Looker Studio, Mixpanel  
-**Backend & Data:** Python 3.11, SQL/PostgreSQL (Supabase), Pandas, FastAPI, Docker  
-**Automação & Orquestração:** n8n (self-hosted), MCP (Model Context Protocol), Playwright, Evolution API  
-**Growth Tools:** Stable Diffusion XL, Firecrawl, OpenStreetMap, Google Places API, Replicate  
-**Infra:** VPS Ubuntu + Cloudflare Tunnel, GitHub Actions CI/CD, Obsidian (vault "Mãe")
-
----
-
-## 📁 Estrutura do Repo
-
-```
-portfolio/
-├── _config.yml              # Jekyll config
-├── index.md                 # Homepage
-├── README.md                # Este arquivo
-├── assets/
-│   ├── css/main.css         # Estilos
-│   ├── images/              # Prints/dashboard (adicionar)
-│   └── pdfs/                # Relatórios (adicionar)
-├── _layouts/
-│   ├── default.html         # Layout base
-│   └── case.html            # Layout case study
-├── cases/
-│   ├── index.md             # Lista de cases
-│   ├── mcp-google-ads.md
-│   ├── mcp-meta-ads.md
-│   ├── leads-sem-site.md
-│   ├── crm-whatsapp.md
-│   └── prob-lab-trading.md
-├── growth/index.md          # Growth & Experimentação
-├── leadership/index.md      # Liderança & Squad
-├── tech-stack/index.md      # Stack Técnica
-└── automation/index.md      # Automações em Produção
+```text
+Portfolio/
+├── _config.yml                  # URL, baseurl, plugins e configuração Jekyll
+├── Gemfile                      # Dependências Ruby
+├── _includes/icons.html         # Ícones SVG locais
+├── _layouts/default.html        # Cabeçalho, menu, conteúdo, contato e rodapé
+├── _layouts/case.html           # Template dos cases
+├── assets/css/main.css          # Estilo, temas e responsividade
+├── assets/js/main.js            # Menu, tema e carrosséis
+├── assets/images/               # Retrato e favicon de Lucas
+├── index.md                     # Perfil e apresentação principal
+├── cases/                       # Listagem e páginas de cases
+├── growth/index.md              # Growth
+├── leadership/index.md          # Liderança
+├── tech-stack/index.md          # Plataformas e ferramentas
+└── automation/index.md          # Automação
 ```
 
----
+## Edição
 
-## 🚀 Deploy no GitHub Pages
+Edite `index.md` para atualizar o perfil. Os cases estão em `cases/`, e as páginas institucionais ficam em suas pastas correspondentes. O contato no layout compartilhado está em `_layouts/default.html`; o contato principal da home fica no final de `index.md`. As datas e resultados foram mantidos conforme o projeto recebido.
 
-### 1. Criar repositório
-```bash
-# No GitHub: New repository → "portfolio" → Public
-# Clone local:
-git clone https://github.com/lucastraba/portfolio.git
-cd portfolio
+Referencie arquivos e links internos usando o filtro Liquid `relative_url`, para que continuem funcionando no subdiretório do GitHub Pages:
+
+```liquid
+<img src="{{ '/assets/images/exemplo.jpg' | relative_url }}" alt="Descrição da imagem">
+<a href="{{ '/cases/brinox/' | relative_url }}">Conhecer o case Brinox</a>
 ```
 
-### 2. Copiar arquivos
-```bash
-# Copie todo o conteúdo desta pasta para o repo clonado
-# Ou use este diretório como working tree
-```
+## Desenvolvimento local
 
-### 3. Push inicial
-```bash
-git add .
-git commit -m "feat: portfolio inicial com 5 cases, growth, leadership, tech-stack, automation"
-git push origin main
-```
-
-### 4. Ativar GitHub Pages
-- Settings → Pages → Source: **Deploy from a branch**
-- Branch: **main** / **/(root)** (Jekyll builda automaticamente)
-- Save → Aguarde ~2 min → Disponível em `https://lucastraba.github.io/portfolio`
-
-### 5. Custom Domain (opcional)
-- Settings → Pages → Custom domain: `portfolio.lucastraba.com`
-- DNS: CNAME `portfolio` → `lucastraba.github.io`
-- Enforce HTTPS ✅
-
----
-
-## 🔧 Desenvolvimento Local
+Com Ruby, Bundler e ferramentas de compilação instalados:
 
 ```bash
-# Pré-requisitos: Ruby 3.2+, Bundler
-gem install bundler jekyll
 bundle install
-bundle exec jekyll serve --livereload
-# Abre em http://localhost:4000/portfolio
+bundle exec jekyll serve
 ```
 
----
+Abra `http://localhost:4000/Portfolio/`. Para compilar sem iniciar o servidor:
 
-## 📝 Adicionando Assets (Prints, Dashboards, PDFs)
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+```
 
-1. **Imagens:** Coloque em `assets/images/` (ex: `dashboard-roas.png`, `crm-kanban.png`)
-2. **PDFs:** Coloque em `assets/pdfs/` (ex: `relatorio-mensal-cliente-x.pdf`)
-3. **Referenciar nos cases:**
-   ```markdown
-   ![Dashboard ROAS](/assets/images/dashboard-roas.png)
-   [Relatório PDF](/assets/pdfs/relatorio-mensal.pdf)
-   ```
-
-**Dica:** Anonimize dados sensíveis (nomes clientes, IDs contas, valores absolutos) — use "% de melhoria", "indexado base 100", ranges.
-
----
-
-## 📄 Licença
-
-MIT License — sinta-se livre para usar como referência para seu próprio portfolio.
-
----
-
-## 🤝 Conecte-se
-
-- **LinkedIn:** [linkedin.com/in/lucas-tajes](https://www.linkedin.com/in/lucas-tajes/)
-- **GitHub:** [github.com/lucasmtajes-lgtm](https://github.com/lucasmtajes-lgtm)
-- **Email:** lucas.traba@gmail.com
-
----
-
-*Última atualização: Outubro 2026*
+O resultado fica em `_site/`. Não copie essa pasta sobre os arquivos-fonte. O Google Fonts fornece a JetBrains Mono; se estiver indisponível, o site usa a fonte monoespaçada do sistema.

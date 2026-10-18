@@ -1,9 +1,13 @@
-title: "Lucas Tajes — Performance & Growth Portfolio"
+title: "Lucas Tajes"
 description: "Analista de Performance | Growth | Squad Leader. Google Ads, Meta Ads, Automação, CRM WhatsApp, Data-Driven Decisions."
 url: "https://lucasmtajes-lgtm.github.io"
 baseurl: "/Portfolio"
+lang: "pt-BR"
+locale: "pt_BR"
 github_username: lucasmtajes-lgtm
 linkedin_username: lucas-tajes
+logo: "/assets/images/favicon.svg"
+image: "/assets/images/lucas-tajes.jpg"
 
 markdown: kramdown
 highlighter: rouge
@@ -27,6 +31,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: "/assets/images/lucas-tajes.jpg"
+  - scope:
+      path: ""
       type: "cases"
     values:
       layout: case
@@ -39,6 +47,9 @@ defaults:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - plan.md
+  - TODO.md
+  - COMO-PUBLICAR.md
   - node_modules
   - vendor
   - README.md
@@ -49,6 +60,10 @@ exclude:
   - "dados e foto"
   - .vscode
   - .idea
+  - .manus
+  - .work
+  - inputs
+  - outputs
 
 sass:
   style: compressed

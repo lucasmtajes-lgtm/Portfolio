@@ -1,22 +1,25 @@
 ---
 layout: default
 sidebar: false
+title: "Performance & Growth"
+description: "Performance, analytics e automação com IA. Conheça a experiência e os cases de Lucas Tajes em mídia paga, growth e geração de leads."
 ---
 
-<div class="hero-grid">
-  <div>
-    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil</p>
+<p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>Perfil<span>/</span>Lucas Tajes</p>
 
-    <span class="eyebrow">Performance Specialist</span>
-    <h1 class="page-title">Lucas Tajes<br><em>Performance &amp; Growth</em></h1>
+<div class="hero-grid">
+  <div class="hero-copy">
+    <span class="eyebrow">Especialista</span>
+    <h1 class="page-title">Lucas Tajes</h1>
+    <p class="profile-role">Performance &amp; Growth</p>
     <p class="page-subtitle">
       <strong>10+ anos em mídia paga</strong> conectando performance, analytics e automação com IA.
-      Campanha omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
+      Campanhas omnichannel em Google Ads, Meta Ads e TikTok Ads com foco em previsibilidade,
       volume e qualidade de leads — do clique à conversão.
     </p>
 
     <div class="cta-group">
-      <a href="{{ '/cases/' | relative_url }}" class="btn btn-primary">Ver cases de negócio</a>
+      <a href="#contato" class="btn btn-primary">Contato</a>
       <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
     </div>
 
@@ -47,7 +50,7 @@ sidebar: false
 
 <section class="section">
   <div class="section-head">
-    <span class="eyebrow">Approach</span>
+    <span class="eyebrow">Método</span>
     <h2>Como eu trabalho</h2>
     <p>Gestão de mídia orientada a dados, com foco em ROI mensurável em cada plataforma e mercado.</p>
   </div>
@@ -74,7 +77,7 @@ sidebar: false
 
 <section class="section">
   <div class="section-head">
-    <span class="eyebrow">Expertise</span>
+    <span class="eyebrow">Especialidades</span>
     <h2>Competência central</h2>
     <p>Plataformas e capacidades que opero no dia a dia.</p>
   </div>
@@ -90,7 +93,7 @@ sidebar: false
     </div>
     <div class="card">
       <h3>Meta Ads &amp; Geração de Leads</h3>
-      <p>Campanhas de conversão, lead generation com formulários nativos e Click-to-WhatsApp, catálogo e remarketing. audiência, criativos e escala de orçamento.</p>
+      <p>Campanhas de conversão, lead generation com formulários nativos e Click-to-WhatsApp, catálogo e remarketing. Audiências, criativos e escala de orçamento.</p>
       <div class="card-tags">
         <span class="tag primary">Meta Ads</span><span class="tag primary">Leads</span>
         <span class="tag">Catálogo</span><span class="tag">Advantage+</span><span class="tag">TikTok Ads</span>
@@ -117,7 +120,7 @@ sidebar: false
 
 <section class="section">
   <div class="section-head">
-    <span class="eyebrow">Results</span>
+    <span class="eyebrow">Cases de negócio</span>
     <h2>Resultados alcançados</h2>
     <p>Cases reais com métrica de negócio no topo. Clique para o detalhamento completo do desafio, abordagem e resultados.</p>
   </div>
@@ -173,7 +176,7 @@ sidebar: false
 
 <section class="section">
   <div class="section-head">
-    <span class="eyebrow">Career</span>
+    <span class="eyebrow">Trajetória</span>
     <h2>Experiência</h2>
   </div>
 
@@ -255,7 +258,7 @@ sidebar: false
 
 <section class="section">
   <div class="section-head">
-    <span class="eyebrow">Languages</span>
+    <span class="eyebrow">Comunicação</span>
     <h2>Idiomas</h2>
   </div>
   <div class="card-tags">
@@ -265,14 +268,15 @@ sidebar: false
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="contato">
   <div class="cta-band">
-    <span class="eyebrow">Get in touch</span>
+    <span class="eyebrow">Vamos conversar</span>
     <h2>Vamos falar sobre performance e growth?</h2>
-    <p>Retratos, cases completos e relatórios detalhados disponíveis sob consulta. Resposta direta, sem enrolação.</p>
+    <p>Mídia paga, analytics e automação conectados ao resultado do negócio. Cases completos e relatórios detalhados disponíveis sob consulta.</p>
     <div class="cta-group">
-      <a href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener" class="btn btn-primary">Falar no LinkedIn</a>
-      <a href="https://github.com/lucasmtajes-lgtm" target="_blank" rel="noopener" class="btn btn-secondary">Ver no GitHub</a>
+      <a href="mailto:lucas.m.tajes@gmail.com" class="btn btn-primary">Iniciar conversa</a>
+      <a href="{{ '/cases/' | relative_url }}" class="btn btn-secondary">Conhecer os cases</a>
     </div>
+    <a class="contact-detail" href="https://www.linkedin.com/in/lucas-tajes/" target="_blank" rel="noopener">Ou fale comigo pelo LinkedIn ↗</a>
   </div>
 </section>
